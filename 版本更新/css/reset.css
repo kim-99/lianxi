@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ul,ol{list-style:none;}
+a{
+	color:#82939e;text-decoration: none;
+}
+a:hover{color:#f95555;text-decoration: none;}
+img{border:0;vertical-align: top;}/*垂直对齐，行元素使用有效*/
+body{
+	color:#000;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background: url(../img/header.png) no-repeat center top;
+}
+.layer{
+    width: 1210px;
+    height: auto;
+    margin:0 auto;  /*这个很重要哦，设置一个基本的区域,做居中对齐*/
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear:both;
+}
